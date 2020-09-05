@@ -11,6 +11,7 @@ const propTypes = {
 const defaultProps = {
   ...SectionTilesProps.defaults
 }
+
 const FeaturesTiles = ({
   className,
   topOuterDivider,

@@ -7,7 +7,6 @@ import FeaturesSplit from '../components/sections/FeaturesSplit';
 import Cta from '../components/sections/Cta';
 
 const Home = () => {
-
   return (
     <>
       <Hero className="illustration-section-01" />
