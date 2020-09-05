@@ -74,9 +74,9 @@ const Hero = ({
 </p> <br/>
               <div className="reveal-from-bottom" data-reveal-delay="300">
                 <ButtonGroup>
-                  <Button tag="a" color="primary" class="nav-link" wideMobile href="#download">
+                  <a style={{backgroundColor:"#09553f", color:"white"}} class="nav-link" wideMobile href="#download">
                      Test the app
-                    </Button>
+                    </a>
                   {/* <Button tag="a" color="dark" wideMobile href="https://github.com/iamjaspreetsingh/">
                     Join Referral Programme
                     </Button> */}

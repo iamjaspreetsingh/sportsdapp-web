@@ -91,6 +91,9 @@ const Header = ({
     <li class="nav-link"><a href="#howtoplay">How to play</a></li>
     <li class="nav-link"><a href="#roadmap">Roadmap</a></li>
     <li class="nav-link"><a href="#download">Download</a></li>
+    <li class="nav-link"><a href="#joinus">Contact us</a></li>
+
+    
     </ul>
 
   </div>

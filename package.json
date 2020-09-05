@@ -19,7 +19,8 @@
     "react-notifications": "^1.6.0",
     "react-notifications-component": "^2.4.0",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "^3.4.1"
+    "react-scripts": "^3.4.1",
+    "react-toast-notifications": "^2.4.0"
   },
   "repository": {
     "type": "git",

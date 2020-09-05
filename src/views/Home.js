@@ -7,6 +7,7 @@ import Download from '../components/sections/Download';
 // import Testimonial from '../components/sections/Testimonial';
 import Cta from '../components/sections/Cta';
 import CtaTopHeader from '../components/sections/CtaTopHeader';
+import Footer from '../components/layout/Footer';
 
 const Home = () => {
   return (

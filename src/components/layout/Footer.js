@@ -29,7 +29,7 @@ const Footer = ({
     className
   );
   const sectionHeader = {
-    title: 'Copyright © 2020 SportsDapp. All Rights Reserved.',
+    title: 'Contact us: info@sportsdapp.co',
     paragraph: 'Terms & Conditions'
   };
   
@@ -44,7 +44,7 @@ const Footer = ({
 
 
 
- <footer class="page-footer font-small special-color-dark pt-4">
+ <footer id='joinus' class="page-footer font-small special-color-dark pt-4">
 
   <div class="container">
 
@@ -81,12 +81,13 @@ const Footer = ({
   <SectionHeader data={sectionHeader} className="center-content" />
 
   {/* <div style= {{float:'left', marginLeft:'3rem'}} class="footer-copyright text-right py-3">
-    <h6>Terms & Conditions</h6>
-  </div>
+    <h6>
+</h6>
+  </div> */}
 
   <div style= {{float:'right', marginRight:'3rem'}}class="footer-copyright text-left py-3">
     Copyright © 2020 SportsDapp. All Rights Reserved.
-  </div> */}
+  </div>
 
 
 

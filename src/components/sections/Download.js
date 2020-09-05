@@ -5,7 +5,10 @@ import SectionHeader from './partials/SectionHeader';
 import Image from '../elements/Image';
 import { store } from 'react-notifications-component';
 import {NotificationContainer, NotificationManager} from 'react-notifications';
+import { useToasts } from 'react-toast-notifications'
 
+
+ 
 
 const propTypes = {
   ...SectionSplitProps.types
@@ -58,10 +61,22 @@ const Download = ({
   };
 
   const showNotification=()=>{
-
-    NotificationManager.success('Success message', 'Title here');
-
+    alert("Mail sent");
+    // store.addNotification({
+    //   title: "Wonderful!",
+    //   message: "teodosii@react-notifications-component",
+    //   type: "success",
+    //   insert: "top",
+    //   container: "top-right",
+    //   animationIn: ["animated", "fadeIn"],
+    //   animationOut: ["animated", "fadeOut"],
+    //   dismiss: {
+    //     duration: 5000,
+    //     onScreen: true
+    //   }
+    // });
   }
+
 
   return (
     <section id= 'download'
@@ -78,10 +93,13 @@ const Download = ({
        
           <SectionHeader data={sectionHeader} className="center-content" />
           <div className={splitClasses}>
+          {/* <button onClick={() => showNotification()}>
+      Add Toast
+    </button> */}
 
           <div  style = {{backgroundColor:'#151719'}}class="card-deck text-white ">
 <div style = {{textAlign:'center'}} class="card bg-dark text-white ">
-  <img style={{width:'100%', paddingLeft:'25%', paddingRight:'25%', paddingTop:'15%', paddingBottom:'5%'}} class="card-img-top" src={require('./../../assets/images/QR.jpeg')} alt="Card image cap"/>
+  <img style={{width:'100%', paddingLeft:'25%', paddingRight:'25%', paddingTop:'15%', paddingBottom:'5%'}} class="card-img-top" src={require('./../../assets/images/qr.png')} alt="Card image cap"/>
   <div class="card-body">
     <h5 class="card-title">Scan the QR Code <br/>to Get app</h5>
   </div>
@@ -90,11 +108,9 @@ const Download = ({
 <div class="w3-container w3-light-grey w3-padding-32 w3-padding-large" id="contact">
                       <div class="w3-content">
 
-                        <iframe name="hidden_iframe" id="hidden_iframe" style={{display:"none"}} onload={()=>showNotification()}></iframe>
+                        <iframe name="hidden_iframe" id="hidden_iframe" style={{display:"none"}} ></iframe>
 
-                        <form action="https://docs.google.com/forms/u/1/d/e/1FAIpQLSdSsYa3lodvY9cvjlpi0eng3pJEcQwD5iWBZqQsfZHtKVVQZQ/formResponse" method="post" target="hidden_iframe" onsubmit={()=>{showNotification()}}>
-
-
+                        <form action="https://docs.google.com/forms/u/1/d/e/1FAIpQLSdSsYa3lodvY9cvjlpi0eng3pJEcQwD5iWBZqQsfZHtKVVQZQ/formResponse" method="post" target="hidden_iframe" onSubmit={()=>{showNotification()}}>
 
                           <div class="w3-section">
 
@@ -113,7 +129,7 @@ const Download = ({
   </div>
 </div>
 <div style = {{textAlign:'center'}} class="card bg-dark text-white ">
-<a style={{paddingTop:'4rem'}} href='/src/assets/app-debug.apk' download>
+<a style={{paddingTop:'4rem'}} href='sportsdapp.apk' download="sportsdapp">
     <div class="image-top"><i class="fa fa-android fa-5x"></i></div>
   </a>
   <div class="card-body">
