@@ -53,8 +53,11 @@ const FeaturesTiles = ({
     <section
       {...props}
       className={outerClasses}
+      // style={{backgroundColor:'white'}}
+      id='about'
     >
-      <div className="container">
+<hr/>
+      <div style = {{paddingTop:'5rem'}} className="container">
         <div className={innerClasses}>
           <SectionHeader data={sectionHeader} className="center-content" />
           <div className={tilesClasses}>

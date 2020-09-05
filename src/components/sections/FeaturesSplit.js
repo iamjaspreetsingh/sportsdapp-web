@@ -58,7 +58,9 @@ const FeaturesSplit = ({
     <section
       {...props}
       className={outerClasses}
+      id='howtoplay'
     >
+      <br/>
       <div className="container">
         <div className={innerClasses}>
           <SectionHeader data={sectionHeader} className="center-content" />
@@ -81,12 +83,16 @@ const FeaturesSplit = ({
                   'split-item-image center-content-mobile reveal-from-bottom',
                   imageFill && 'split-item-image-fill'
                 )}
-                data-reveal-container=".split-item">
-                <Image
+                data-reveal-container=".split-item" >
+              <div style={{marginTop:'-14%'}}>
+                
+              <Image
                   src={require('./../../assets/images/a.png')}
                   alt="Features split 01"
                   width={528}
                   height={396} />
+                </div>
+                
               </div>
             </div>
 
@@ -122,7 +128,7 @@ const FeaturesSplit = ({
                   Step-3
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Strategise & Answer 
+                  Strategise & Answer
                   </h3>
                 <p className="m-0">
                   Choose the best possible option you think of. You can also check the live scenarios of which option is voted most. The more the option is voted the lesser reward it holds if it is correct.
@@ -145,6 +151,9 @@ const FeaturesSplit = ({
           </div>
         </div>
       </div>
+
+
+
     </section>
   );
 }

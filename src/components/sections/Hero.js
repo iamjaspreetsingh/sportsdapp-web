@@ -35,7 +35,7 @@ const Hero = ({
   const closeModal = (e) => {
     e.preventDefault();
     setVideomodalactive(false);
-  }   
+  }
 
   const outerClasses = classNames(
     'hero section center-content',
@@ -57,24 +57,28 @@ const Hero = ({
       {...props}
       className={outerClasses}
     >
+      
       <div className="container-sm">
         <div className={innerClasses}>
           <div className="hero-content">
-            <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
+          <div style={{backgroundColor:'#09553f', marginTop:'7px', padding:'9px', color:'white', textAlign:'center'}}>
+          We will be releasing beta version on 16th September. Stay tuned!
+          </div>
+
+            <h1 style = {{paddingTop:'2rem'}} className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
               Sports Fantasy app on <span className="text-color-primary">blockchain</span>
             </h1>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
               One Stop Platform for sports lovers to predict & strategise on upcoming match events.
-
-</p>
-              <div className="reveal-from-bottom" data-reveal-delay="600">
+</p> <br/>
+              <div className="reveal-from-bottom" data-reveal-delay="300">
                 <ButtonGroup>
-                  <Button tag="a" color="primary" wideMobile href="https://forms.gle/VnFuXQPU7Cp9qJbC7">
-                    REGISTER
+                  <Button tag="a" color="primary" class="nav-link" wideMobile href="#download">
+                     Test the app
                     </Button>
                   {/* <Button tag="a" color="dark" wideMobile href="https://github.com/iamjaspreetsingh/">
-                    Join Referral Programme 
+                    Join Referral Programme
                     </Button> */}
                 </ButtonGroup>
               </div>

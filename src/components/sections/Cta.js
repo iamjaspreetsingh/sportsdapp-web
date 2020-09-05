@@ -45,19 +45,25 @@ const Cta = ({
     topDivider && 'has-top-divider',
     bottomDivider && 'has-bottom-divider',
     split && 'cta-split'
-  );  
+  );
 
   return (
-    <section
+
+    <section id='roadmap'
       {...props}
       className={outerClasses}
     >
+    <br/>
+    <hr/>
+    <br/>
+    <br/>
+
       <div className="container">
         <div style={{display:'block',textAlign:'center'}}
           // className={innerClasses} className="cta-slogan"
         >
         <SectionHeader data={sectionHeader} className="center-content" />
-{/* 
+{/*
           <div className="cta-slogan">
             <h3 className="m-0">
               Roadmap

@@ -73,8 +73,8 @@ $icon--color: (
 	// ↓ Inverted colors
 	hamburger-inverse:		get-color(dark, 2),				// hamburger icon
 	accordion-inverse:		get-color(primary, 1),			// accordion icon
-	social-inverse: 		null,							// social icons
-	social-hover-inverse: 	null							// social icons (:hover)
+	social-inverse: 		get-color(primary, 2),							// social icons
+	social-hover-inverse: 	get-color(primary, 2)							// social icons (:hover)
 );
 
 // Misc elements: background color
