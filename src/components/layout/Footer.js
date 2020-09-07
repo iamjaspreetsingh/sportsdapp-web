@@ -32,14 +32,15 @@ const Footer = ({
     title: 'Contact us: info@sportsdapp.co',
     paragraph: 'Terms & Conditions'
   };
-  
+
   return (
     <>
 
 <br/>
+<p style={{alignSelf:'center'}}>Smart Contract Address: <a href = "https://explorer.matic.network/address/0xcec34Fc02dF30Bf294Af22EdfD9667F2307Ad979/transactions#" target='_empty'>0xcec34Fc02dF30Bf294Af22EdfD9667F2307Ad979</a></p>
+<hr style = {{marginTop:0}}/>
 <br/>
 <br/>
-<hr/>
 <br/>
 
 

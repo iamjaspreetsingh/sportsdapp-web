@@ -8,6 +8,8 @@ import Download from '../components/sections/Download';
 import Cta from '../components/sections/Cta';
 import CtaTopHeader from '../components/sections/CtaTopHeader';
 import Footer from '../components/layout/Footer';
+import Faq from '../components/sections/Faq';
+
 
 const Home = () => {
   return (
@@ -21,6 +23,7 @@ const Home = () => {
 
       {/* <Testimonial topDivider /> */}
       <Cta split />
+      <Faq />
       <Download/>
     </>
   );

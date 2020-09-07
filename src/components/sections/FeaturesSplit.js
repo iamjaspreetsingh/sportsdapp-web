@@ -78,21 +78,22 @@ const FeaturesSplit = ({
                   You can play upcoming as well as live matches. Click on the match you want to play.
                 </p>
               </div>
-              <div className={
+              <div style={{alignSelf:'center'}} className={
                 classNames(
                   'split-item-image center-content-mobile reveal-from-bottom',
                   imageFill && 'split-item-image-fill'
                 )}
                 data-reveal-container=".split-item" >
-              <div style={{marginTop:'-14%'}}>
-                
+              <div >
+
               <Image
                   src={require('./../../assets/images/a.png')}
                   alt="Features split 01"
                   width={528}
-                  height={396} />
+                  height={396}
+                  />
                 </div>
-                
+
               </div>
             </div>
 
@@ -108,7 +109,7 @@ const FeaturesSplit = ({
                   Click on any question to answer them. Both general & user created questions exist. The participation fee for questions vary & therefore the rewards. You can also create your own custom question by clicking on bottom right plus button.
                   </p>
               </div>
-              <div className={
+              <div style={{alignSelf:'center'}} className={
                 classNames(
                   'split-item-image center-content-mobile reveal-from-bottom',
                   imageFill && 'split-item-image-fill'
@@ -139,6 +140,7 @@ const FeaturesSplit = ({
                   'split-item-image center-content-mobile reveal-from-bottom',
                   imageFill && 'split-item-image-fill'
                 )}
+                style={{alignSelf:'center'}}
                 data-reveal-container=".split-item">
                 <Image
                   src={require('./../../assets/images/d.png')}

@@ -57,11 +57,11 @@ const Hero = ({
       {...props}
       className={outerClasses}
     >
-      
+
       <div className="container-sm">
         <div className={innerClasses}>
-          <div className="hero-content">
-          <div style={{backgroundColor:'#09553f', marginTop:'7px', padding:'9px', color:'white', textAlign:'center'}}>
+          <div className="hero-content mobile-view-margined-header">
+          <div style={{backgroundColor:'#09553f', marginTop:'1rem', padding:'9px', color:'white', textAlign:'center'}}>
           We will be releasing beta version on 16th September. Stay tuned!
           </div>
 

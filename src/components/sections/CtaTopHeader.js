@@ -40,7 +40,7 @@ const CtaTopHeader = ({
     topDivider && 'has-top-divider',
     bottomDivider && 'has-bottom-divider',
     split && 'CtaTopHeader-split'
-  );  
+  );
 
   return (
     <section
