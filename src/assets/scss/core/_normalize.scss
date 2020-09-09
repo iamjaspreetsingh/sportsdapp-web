@@ -6,6 +6,8 @@ html {
 
 body {
   margin: 0;
+  margin-left: 1rem;
+  margin-right:1rem;
 }
 
 article,
@@ -232,13 +234,27 @@ template {
   display: none;
 }
 
+.hideOnMobile{
+  display: none;
+}
 
-/*header adjustment for mobile phones: */
-@media only screen and (max-width: 768px) {
+
+/*a few minor adjustments for mobile phones: */
+@media only screen and (max-width: 512px) {
   .mobile-view-margined-header{
     margin-top: 3rem;
   }
+  .hide-on-mobile{
+    display: none;
+  }
 }
+
+@media only screen and (min-width: 512px) {
+  .hide-on-desktop{
+    display: none;
+  }
+}
+
 
 
 /*
@@ -251,6 +267,7 @@ template {
 
 
 .accordion {
+  padding-left: 2rem;
   &__single {
 
     &__hidden {

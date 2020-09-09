@@ -37,9 +37,8 @@ const Footer = ({
     <>
 
 <br/>
-<p style={{alignSelf:'center'}}>Smart Contract Address: <a href = "https://explorer.matic.network/address/0xcec34Fc02dF30Bf294Af22EdfD9667F2307Ad979/transactions#" target='_empty'>0xcec34Fc02dF30Bf294Af22EdfD9667F2307Ad979</a></p>
+<p style={{alignSelf:'center',fontSize:'0.7rem'}}>Smart Contract Address: <a target="_blank" href = "https://explorer.matic.network/address/0xcec34Fc02dF30Bf294Af22EdfD9667F2307Ad979/transactions#">0xcec34Fc02dF30Bf294Af22EdfD9667F2307Ad979</a></p>
 <hr style = {{marginTop:0}}/>
-<br/>
 <br/>
 <br/>
 
@@ -86,8 +85,9 @@ const Footer = ({
 </h6>
   </div> */}
 
-  <div style= {{float:'right', marginRight:'3rem'}}class="footer-copyright text-left py-3">
+  <div style= {{float:'right',fontSize:'0.7rem', marginRight:'3rem'}}class="footer-copyright text-left py-3">
     Copyright © 2020 SportsDapp. All Rights Reserved.
+ 
   </div>
 
 

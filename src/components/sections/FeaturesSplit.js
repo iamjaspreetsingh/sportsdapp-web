@@ -87,10 +87,18 @@ const FeaturesSplit = ({
               <div >
 
               <Image
+                  className="hide-on-mobile"
                   src={require('./../../assets/images/a.png')}
                   alt="Features split 01"
                   width={528}
                   height={396}
+                  />
+
+              <Image
+                  className="hide-on-desktop"
+                  src={require('./../../assets/images/a.png')}
+                  alt="Features split 01"
+                  style={{width:'97%'}}
                   />
                 </div>
 
@@ -116,10 +124,18 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
+                  className="hide-on-mobile"
                   src={require('./../../assets/images/c.png')}
                   alt="Features split 02"
                   width={528}
-                  height={396} />
+                  height={396}
+                />
+                <Image
+                  className="hide-on-desktop"
+                  src={require('./../../assets/images/c.png')}
+                  alt="Features split 02"
+                  style={{width:'97%'}}
+                />
               </div>
             </div>
 
@@ -143,10 +159,20 @@ const FeaturesSplit = ({
                 style={{alignSelf:'center'}}
                 data-reveal-container=".split-item">
                 <Image
+                  className="hide-on-mobile"
                   src={require('./../../assets/images/d.png')}
                   alt="Features split 03"
                   width={528}
-                  height={396} />
+                  height={396}
+                />
+                <Image
+                  className="hide-on-desktop"
+                  src={require('./../../assets/images/d.png')}
+                  alt="Features split 01"
+                  width={528}
+                  height={396}
+                  style={{width:'97%'}}
+                />
               </div>
             </div>
 

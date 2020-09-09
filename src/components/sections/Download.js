@@ -83,6 +83,9 @@ const Download = ({
       {...props}
       className={outerClasses}
     >
+      <br/>
+       <br/>
+       <br/>
        <hr/>
 
       <div  className="container">
@@ -95,7 +98,7 @@ const Download = ({
     </button> */}
 
           <div  style = {{backgroundColor:'#151719'}}class="card-deck text-white ">
-<div style = {{textAlign:'center'}} class="card bg-dark text-white ">
+<div style = {{textAlign:'center'}} class="hide-on-mobile card bg-dark text-white ">
   <img style={{width:'100%', height:'auto', paddingLeft:'25%', paddingRight:'25%', paddingTop:'15%', paddingBottom:'5%'}} class="card-img-top" src={require('./../../assets/images/qr.png')} alt="Card image cap"/>
   <div class="card-body">
     <h5 class="card-title">Scan the QR Code <br/>to Get app</h5>
