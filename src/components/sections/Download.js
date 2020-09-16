@@ -84,8 +84,6 @@ const Download = ({
       className={outerClasses}
     >
       <br/>
-       <br/>
-       <br/>
        <hr/>
 
       <div  className="container">

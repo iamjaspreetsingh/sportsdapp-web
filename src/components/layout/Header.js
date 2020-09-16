@@ -86,15 +86,23 @@ const Header = ({
 
     </ul>
 
-    <ul  style ={{marginBottom:0, paddingRight:'2rem'}} class="navbar-nav">
+    <ul  style ={{marginBottom:0, paddingRight:'2rem'}} class="navbar-nav hide-on-desktop">
     <li class="nav-link" data-toggle="collapse" data-target=".navbar-collapse"><a href="#about">About</a></li>
     <li class="nav-link" data-toggle="collapse" data-target=".navbar-collapse"><a href="#howtoplay">How to play</a></li>
     <li class="nav-link" data-toggle="collapse" data-target=".navbar-collapse"><a href="#roadmap">Roadmap</a></li>
-    <li class="nav-link" data-toggle="collapse" data-target=".navbar-collapse"><a href="#faq">FAQ</a></li>
+    <li class="nav-link" data-toggle="collapse" data-target=".navbar-collapse"><a href="#faq">FAQs</a></li>
     <li class="nav-link" data-toggle="collapse" data-target=".navbar-collapse"><a href="#download">Download</a></li>
     <li class="nav-link" data-toggle="collapse" data-target=".navbar-collapse"><a href="#joinus">Contact us</a></li>
+    </ul>
 
 
+    <ul  style ={{marginBottom:0, paddingRight:'2rem'}} class="navbar-nav hide-on-mobile">
+    <li class="nav-link" ><a href="#about">About</a></li>
+    <li class="nav-link" ><a href="#howtoplay">How to play</a></li>
+    <li class="nav-link" ><a href="#roadmap">Roadmap</a></li>
+    <li class="nav-link" ><a href="#faq">FAQs</a></li>
+    <li class="nav-link" ><a href="#download">Download</a></li>
+    <li class="nav-link" ><a href="#joinus">Contact us</a></li>
     </ul>
 
   </div>
