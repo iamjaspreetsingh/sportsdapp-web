@@ -62,7 +62,7 @@ const Hero = ({
         <div className={innerClasses}>
           <div className="hero-content mobile-view-margined-header">
           <div style={{backgroundColor:'#09553f', marginTop:'1rem', padding:'9px', color:'white', textAlign:'center'}}>
-          We will be releasing beta version on 16th September. Stay tuned!
+          We will be releasing beta test version (android) on 15th October! Stay tuned!
           </div>
 
             <h1 style = {{paddingTop:'2rem'}} className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
