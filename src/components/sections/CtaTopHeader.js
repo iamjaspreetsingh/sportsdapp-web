@@ -53,7 +53,7 @@ const CtaTopHeader = ({
         >
           <br/>
           <div className="CtaTopHeader-action" style={{backgroundColor:'#004d00', width:'100%', padding:'10px', color:'white', textAlign:'center'}}>
-          We will be releasing beta test version (android) on 15th October! Stay tuned!
+          We will be releasing beta test version (android) on 25th October! Stay tuned!
           </div>
         </div>
       </div>

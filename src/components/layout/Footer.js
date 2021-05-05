@@ -36,7 +36,7 @@ const Footer = ({
   return (
     <>
 
-<p style={{alignSelf:'center',fontSize:'0.7rem'}}>Smart Contract Address: <a target="_blank" href = "https://explorer.matic.network/address/0xcec34Fc02dF30Bf294Af22EdfD9667F2307Ad979/transactions#">0xcec34Fc02dF30Bf294Af22EdfD9667F2307Ad979</a></p>
+<p style={{alignSelf:'center',fontSize:'0.7rem'}}>Smart Contract Address: <a target="_blank" href = "https://explorer-mumbai.maticvigil.com/address/0xe333d95Cebd079409E36d60910a8f4C5d3Dc5786/transactions">0xe333d95Cebd079409E36d60910a8f4C5d3Dc5786</a></p>
 <br/>
 
 <hr style = {{marginTop:0}}/>
@@ -85,13 +85,11 @@ const Footer = ({
   </div> */}
 
   <div style= {{float:'right', fontSize:'0.7rem', marginRight:'3rem'}}class="footer-copyright text-left py-3">
-    Copyright © 2020 SportsDapp. All Rights Reserved.
+    Copyright © 2021 SportsDapp. All Rights Reserved.
   </div>
 
-
-
-</footer>
-    </>
+  </footer>
+  </>
   );
 }
 

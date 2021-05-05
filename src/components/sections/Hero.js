@@ -62,16 +62,17 @@ const Hero = ({
         <div className={innerClasses}>
           <div className="hero-content mobile-view-margined-header">
           <div style={{backgroundColor:'#09553f', marginTop:'1rem', padding:'9px', color:'white', textAlign:'center'}}>
-          We will be releasing beta test version (android) on 15th October! Stay tuned!
+          We will be releasing beta test version (android) very soon! Stay tuned!
           </div>
 
             <h1 style = {{paddingTop:'2rem'}} className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
               Sports Fantasy app on <span className="text-color-primary">blockchain</span>
             </h1>
             <div className="container-xs">
-              <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-              One Stop Platform for sports lovers to predict & strategise on upcoming match events.
-</p> <br/>
+                <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
+                  One Stop Platform for sports lovers to predict & strategise on upcoming match events.
+                </p>
+               <br/>
               <div className="reveal-from-bottom" data-reveal-delay="300">
                 <ButtonGroup>
                   <a style={{backgroundColor:"#09553f", color:"white"}} class="nav-link" wideMobile href="#download">
